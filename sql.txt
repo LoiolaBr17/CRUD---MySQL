@@ -1,0 +1,8 @@
+CREATE SCHEMA `nodemysql2` ;
+
+CREATE TABLE `nodemysql2`.`books` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(255) NULL,
+  `pageqty` INT NULL,
+  PRIMARY KEY (`id`));
+
